@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carrito {
+    width: 300px;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    font-family: sans-serif;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.carrito__titulo {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.carrito__lista {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem 0;
+}
+
+.carrito__item {
+    margin-bottom: 0.5rem;
+}
+
+.carrito__nombre {
+    display: inline-block;
+    width: 60%;
+}
+
+.carrito__precio {
+    display: inline-block;
+    width: 38%;
+    text-align: right;
+}
+
+.carrito__total {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid #ccc;
+}
+
+.carrito__total-texto {
+    display: inline-block;
+    width: 60%;
+    font-weight: bold;
+}
+
+.carrito__total-numero {
+    display: inline-block;
+    width: 38%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.carrito__boton {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+.carrito__boton:hover {
+    background-color: #43a047;
+}
