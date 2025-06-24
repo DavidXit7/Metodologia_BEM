@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="estilos_lista_tareas.css">
+</head>
+<body>
+<div class="lista">
+  <h2 class="lista__titulo">Mis tareas</h2>
+  <ul class="lista__items">
+    <li class="lista__item lista__item--pendiente">
+      <label class="lista__etiqueta">
+        <input type="checkbox" class="lista__casilla" />
+        Aprender BEM
+      </label>
+    </li>
+    <li class="lista__item lista__item--completada">
+      <label class="lista__etiqueta">
+        <input type="checkbox" class="lista__casilla" checked />
+        Maquetar HTML
+      </label>
+    </li>
+    <li class="lista__item lista__item--completada">
+      <label class="lista__etiqueta">
+        <input type="checkbox" class="lista__casilla" checked />
+        Maquetar CSS
+      </label>
+    </li>
+  </ul>
+</div>
+
+</body>
+</html>
