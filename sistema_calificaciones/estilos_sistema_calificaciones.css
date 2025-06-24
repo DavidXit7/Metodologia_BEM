@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rating {
+    direction: rtl;
+    text-align: left;
+    padding-left: 149px;
+}
+
+.rating__titulo{
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.rating__image img{
+    width: 400;
+    height: 300px;
+}
+
+.rating__icono {
+    font-size: 32px;
+    color: #ccc;
+    cursor: pointer;
+
+}
+
+.rating__estrella:checked ~ .rating__icono,
+.rating__estrella:checked ~ .rating__icono ~ .rating__icono {
+    color: #ffca28;
+}
+
+.rating__icono:hover,
+.rating__icono:hover ~ .rating__icono {
+    color: #f0b400;
+} 
