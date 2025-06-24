@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.notificacion__oculta--activa {
+    display: none; /* Oculta el elemento por defecto */
+    margin-top: 20px; /* Añade un margen superior de 20px */
+    padding: 10px; /* Añade un padding de 10px */
+    background-color: black; /* Establece el color de fondo a negro */
+    border-left: 4px solid #f4f4; /* Añade un borde izquierdo de 4px de color #f4f4 */
+    color: white; /* Establece el color del texto a blanco */
+    transition: 1s; /* Añade una transición suave de 1 segundo para los cambios de estilo */
+}
+
+.notificacion__oculta--activa:target {
+    display: block; /* Muestra el elemento cuando es el objetivo de un enlace (target) */
+}
